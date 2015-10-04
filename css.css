@@ -1,0 +1,93 @@
+body{
+	margin: 0px;
+	font-family:'Lucida Grande','Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',Meiryo, メイリオ, sans-serif;
+	color:#6078C7;
+}
+
+
+.main{
+	width : 800px;
+	margin: 0 auto;
+}
+
+header{
+	width: 800px;
+	margin: 0 auto;
+}
+.iconBg{
+	float: left;
+	color : #ffffff;
+	font-weight: bold;
+	text-align: center;
+	background-image: url("./data/pageicon_bg_base02.png");
+	width : 160px;
+	height : 50px;
+}
+
+
+.shareArea{
+	width: 280px;
+	height:100px;
+	margin: 0 auto;
+}
+
+.shareIcon{
+	margin: 20px;
+	color: #000000;
+	font-size: 12px;
+}
+
+.shareIcon a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.system{
+	width : 800px;
+}
+
+.system h1{
+	height: 50px;
+	background-image: url("./data/pageicon_bg_base.png");
+	text-align: center;
+	color:	#ffffff;
+}
+
+.systemContents{
+
+}
+.systemContents img{
+	width : 200px;
+}
+
+.msgContents{
+	font-weight: bold;
+	font-size: 20px;
+	color: #000000;
+	margin: 10px;
+	width : 550px;
+}
+
+.buttonTitle{
+	height: 100px;
+	background-image: url("./data/selectIcon.png");
+	text-align: center;
+	color:	#ffffff;
+}
+
+.howToPlaySmallScreen{
+	width : 800px;
+}
+.howToPlaySmallScreenContents{
+	width: 550px;
+	margin: 0 auto;
+}
+
+.howToPlaySmallScreen h1{
+	font-size: 24px;
+	height: 50px;
+	background-image: url("./data/pageicon_bg_base.png");
+	text-align: center;
+	color:	#ffffff;
+}
+

@@ -1,0 +1,33 @@
+.ad{
+	width: 730px;
+	margin: 0 auto;
+}
+
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float: right;
+}
+.round{
+	border-radius: 10px;        /* CSS3草案 */  
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */  
+}
+
+.clear{
+	clear:both;
+}
+.fontFrame{
+	text-shadow: 1px 1px 1px #2e2446,
+    -1px 1px 1px #2e2446,
+    1px -1px 1px #2e2446,
+    -1px -1px 1px #2e2446;
+}
+
+.bannerArea{
+	color : #000000;
+	font-weight: bold;
+	width : 800px;
+	margin: 0 auto;
+}
