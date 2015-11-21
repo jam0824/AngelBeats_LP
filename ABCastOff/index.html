@@ -6,7 +6,16 @@
 		<link rel=stylesheet type="text/css" href="../css.css"　media="all">
 
 		<title>ABCastOff | Unity Web Player</title>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+		  ga('create', 'UA-55121722-5', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 		<script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
 		<script type="text/javascript">
 		<!--
@@ -134,19 +143,27 @@
 
 		<header>
 			<a href="index.html"><div class="iconBg fontFrame">Play</div></a>
-			<a href="" target="_blank"><div class="iconBg fontFrame" target="_blank">NetRanking</div></a>
+			<a href="../ranking" target="_blank"><div class="iconBg fontFrame" target="_blank">NetRanking</div></a>
 			<a href="../index.html#howToPlaySmallScreen" target="_blank"><div class="iconBg fontFrame">How to play<br>with small screen</div></a>
 			<a href="../index.html#system" target="_blank"><div class="iconBg fontFrame" target="_blank">System</div></a>
-			<a href=""><div class="iconBg fontFrame" target="_blank">Story</div></a>
+			<a href="http://novelist.hatenadiary.jp/entry/2015/10/11/005216" target="_blank"><div class="iconBg fontFrame" target="_blank">Story</div></a>
 			<div class="clear"></div>
 		</header>
 		
 		<div class="content">
 			<div id="unityPlayer">
 				<div class="missing">
-					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
-						<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
-					</a>
+				  <a href="http://japan.unity3d.com/webplayer/" title="Unity Web Playerをインストールする">
+				    <img alt="Unity Web Playerをインストールする" src="../data/getunity.png" width="193" height="63" />
+				  </a>
+				  <div>
+				  	<div>
+				     	<br><br>ゲームをプレイするには <a href="http://japan.unity3d.com/webplayer/">Unity Web Player</a> が必要です。<br>
+				    </div>
+				    <div>
+				    	<br><br> You need <a href="http://unity3d.com/webplayer/">Unity Web Player</a>  to play this game!
+				 	</div>
+				  </div>
 				</div>
 				<div class="broken">
 					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
@@ -157,16 +174,36 @@
 		</div>
 		<p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
 
-		<div class="bannerArea">
-			Traffic Jam Products<br>
-			<div class="floatLeft">
-				<a href="http://milk0824.sakura.ne.jp/doukana/" title="Traffi Jam ホーム"><img src="../data/banner20151004.jpg"></a>
+		<div class="main">
+			<div class="bannerArea">
+				Traffic Jam Products<br>
+				<div class="floatLeft">
+					<a href="http://milk0824.sakura.ne.jp/doukana/" title="Traffi Jam ホーム"><img src="../data/banner20151004.jpg"></a>
+				</div>
+				<div class="floatLeft">
+					<a href="http://www.traffic-jam.me/collection/Collection" title="コレクション共有SNSアイコレ"><img src="../data/collection_banner20151004.jpg"></a>
+				</div>
+				<div class="clear"></div>
 			</div>
-			<div class="floatLeft">
-				<a href="http://www.traffic-jam.me/collection/Collection" title="コレクション共有SNSアイコレ"><img src="../data/collection_banner20151004.jpg"></a>
-			</div>
-			<div class="clear"></div>
-		</div>
 
+			<footer>
+				<div class="QRArea">
+					<div class="floatLeft">
+						©2005 - Traffic Jam<br>
+						<br>
+						Official LINE Account<br>
+						@hgf7288s
+					</div>
+					<div class="imgQRCode floatLeft">
+						<img src="../data/TJ_LINE_QR.jpg">
+					</div>
+					<div class="floatLeft">
+						<a href="http://milk0824.sakura.ne.jp/doukana/" title="Traffi Jam ホーム"><img src="../data/banner20151004.jpg"></a>
+					</div>
+					
+					<div class="clear"></div>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>

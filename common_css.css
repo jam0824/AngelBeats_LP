@@ -40,17 +40,22 @@
 
 #tabmenu div#tab{
     position: absolute;
-    top:0px;
+    top:10px;
     left:0px;
+    font-size: 24px;
+    font-weight: bold;
 }
 #tabmenu div#tab a{
     float: left;
     height: 40px;
     line-height: 40px;
     text-align: center;
-    width: 400px;
+    width: 390px;
     display: block;
     text-decoration:none;
+    background:#aaaaaa;
+    color:#000000;
+    margin: 30px 5px;
 }
 #tabmenu div#tab a:hover{
     background:#000;
@@ -64,7 +69,7 @@ div#tab_contents{
 div#tab_contents ul{
     width:2500px;
     padding:0px;
-    margin:0px;
+    margin:50px 0px;
 }
 div#tab_contents ul li{
     float: left;
